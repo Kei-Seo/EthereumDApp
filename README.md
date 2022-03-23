@@ -1,70 +1,60 @@
-## 머리말 (Header)
-  * # H1 입니다.
+## 이더리움 솔리디티를 이용하여 투표 DApp를 실습합니다.
+  * # How to Build Ethereum Dapp 
 
-  * ## H2 입니다.
+  * ## 본 예제는 Solidity, JavaScript를 사용합니다.
 
-  * ### H3 입니다.
+  * ### 블록체인에 내가 누구를 뽑았는지 저장하고 배포해보자!
 
-  * #### H4 입니다.
+  * #### 쌉가이즈 졸업프로젝트 대상 가자!
 
-  * ##### H5 입니다.
+  * ##### 222222222222222
 
-  * ###### H6 입니다.
+  * ###### 2222222222222222222
 
-## 수평선 (Horizon)
+## 일단 전부 기록하자
   
 ***
 
-## 개행(New line)
 
-강제개행 문법입니다.  
-문장끝의 공백을 통해 개행이 적용됩니다.
+> DID
 
-단락바꿈 문법입니다.
-
-Enter키를 통해 개행이 적용됩니다.
-
-## 인용구 (BlockQuote)
-
-> 인용구입니다.
-
->> 인용구안에 인용구를 사용할 수 있습니다.
+>> Decentralized Application Development Tutorial
 
 ## 목록 (List)
 
-* 순서가 없는 리스트입니다.
-  * 리스트1
-  * 리스트2
-  * 리스트3
+* Using Tool
+  * MetaMask
+  * Ganache
+  * Node
+  * Truffle
 
-* 순서가 있는 리스트입니다.
-  1. 리스트1
-  2. 리스트2
-  3. 리스트3
+* Vote Testing 방법
+  1. truffle console
+  2. Election.deployed().then(function(instance) { app = instance })
+  3. app.candidate()
 
-* 상위 리스트1
-  * 하위 리스트1
-  * 하위 리스트2
-    * 하위의 하위 리스트1
-    * 하위의 하위 리스트2
-
-* 리스트('*')
-+ 리스트('+')
-- 리스트('-')
 
 ## 코드 (Code)
 
-* 문장속 코드 `example code inline` 삽입 예시입니다.
 
-* 박스형 코드 삽입예시입니다.
+
+* Election.sol
 ```
-example code box
+pragma solidity >=0.4.22 <0.8.0;
+contract Election {
+    string public candidate;
+    function Election() public {
+        candidate = "Candidate 1";
+    }
+}
 ```
 
-## 링크
+* constructor > function Election `Election.deployed().then(function(instance) { app = instance })` 
 
-* <https://www.github.com>
-* [Github](https://www.github.com)
+## 강의 링크
+
+* <https://youtu.be/3681ZYbDSSk>
+* [YouTube](https://youtu.be/3681ZYbDSSk)
 
 ## 강조
 
