@@ -24,7 +24,7 @@ contract Election {
     uint public candidatesCount;
 
     constructor() public {
-        addCandidate("배성민");
+        addCandidate("김종훈");
         addCandidate("김해람");
         addCandidate("서홍석");
     }
