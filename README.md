@@ -1,4 +1,4 @@
-## 이더리움 솔리디티를 이용하여 투표 DApp를 실습합니다.
+## 이더리움  DApp 개발
   * # How to Build Ethereum Dapp 
 
   * ## 본 예제는 Solidity, JavaScript를 사용합니다.
