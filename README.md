@@ -1,20 +1,20 @@
 ## 이더리움  DApp 개발
   * # How to Build Ethereum Dapp 
+  
+  * ### 1. Vote DApp
+  * ### 2. Lottery DApp (22.05.12 ~ )
+  * ### 3. InJik DApp (22.03.2 ~ )
 
-  * ## 본 예제는 Solidity, JavaScript를 사용합니다.
+  * ###### 쌉가이즈 졸업프로젝트 대상 가자!
 
-  * ### 블록체인에 내가 누구를 뽑았는지 저장하고 배포해보자!
-
-  * #### 쌉가이즈 졸업프로젝트 대상 가자!
-
-  * ##### 222222222222222
-
-  * ###### 2222222222222222222
 
 ## 일단 전부 기록하자
   
 ***
 
+> IPFS
+>> IPFS는 파일과 아이디(ID)로 처리되는 하이퍼 미디어 프로토콜로서, 동일한 파일 시스템으로 모든 컴퓨터 장치를 연결하려고 만든 분산 파일 시스템이다.
+<img width="1193" alt="image" src="https://user-images.githubusercontent.com/67668805/171547352-84007e45-536c-497a-984f-82eb9bff67af.png">
 
 > DID
 
@@ -27,6 +27,7 @@
   * Ganache
   * Node
   * Truffle
+  * IPFS
 
 * Vote Testing 방법
   1. truffle console
@@ -34,19 +35,13 @@
   3. app.candidate()
 
 
-## 코드 (Code)
+## 실핼방법
 
 
-
-* Election.sol
 ```
-pragma solidity >=0.4.22 <0.8.0;
-contract Election {
-    string public candidate;
-    function Election() public {
-        candidate = "Candidate 1";
-    }
-}
+truffle compile
+truffle migrate --reset 
+truffle develop
 ```
 
 * constructor > function Election `Election.deployed().then(function(instance) { app = instance })` 
