@@ -1,0 +1,76 @@
+{
+  "contractName": "Recruitment",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Recruitments.sol\":\"Recruitment\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Recruitments.sol\":{\"keccak256\":\"0x755fe73dbff62d45fd51437a0acd86ec8e0de5fe76d1be072f69dcaee410727e\",\"urls\":[\"bzz-raw://f71027163d1212d429feabc1a5704aeacc04d257a9d9e5305c9200949726de03\",\"dweb:/ipfs/QmXDkVb62LgsQkZ61P8qeV2dsPUeDfa9PPxRNKFi3ZSZdh\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220d7c711106bb88b79702b5e2fd01078de14f50e707cea75505d8b7742e887098a64736f6c63430008070033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220d7c711106bb88b79702b5e2fd01078de14f50e707cea75505d8b7742e887098a64736f6c63430008070033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "34:26:14:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "34:26:14:-:0;;;;;",
+  "source": "pragma solidity >=0.4.22 <0.9.0;\n\ncontract Recruitment {\n\n\n}",
+  "sourcePath": "/Users/islab/EthereumDApp/InJik-JobHuntingPosition-SmartContract/contracts/Recruitments.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Recruitments.sol",
+    "exportedSymbols": {
+      "Recruitment": [
+        1996
+      ]
+    },
+    "id": 1997,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1995,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:14"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1996,
+        "linearizedBaseContracts": [
+          1996
+        ],
+        "name": "Recruitment",
+        "nameLocation": "43:11:14",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1997,
+        "src": "34:26:14",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:60:14"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.7+commit.e28d00a7.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.7",
+  "updatedAt": "2022-06-01T11:14:58.141Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
