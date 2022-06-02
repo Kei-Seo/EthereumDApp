@@ -1,7 +1,7 @@
 ## 이더리움  DApp 개발
   * # How to Build Ethereum Dapp 
   
-  * ### 1. Vote DApp
+  * ### 1. Vote DApp (Complete)
   * ### 2. Lottery DApp (22.05.12 ~ )
   * ### 3. InJik DApp (22.03.2 ~ )
 
